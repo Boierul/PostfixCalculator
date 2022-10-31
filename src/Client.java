@@ -1,6 +1,6 @@
 import Exceptions.MalformedExpressionException;
 import Structures.Implementations.CalculatorVisitor;
-import Structures.Token;
+import Structures.Abstract.Token;
 
 import java.util.ArrayList;
 

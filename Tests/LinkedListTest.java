@@ -1,7 +1,7 @@
 import Exceptions.EmptyListException;
 import Structures.Implementations.LinkedList;
 import Structures.Implementations.Operand;
-import Structures.Token;
+import Structures.Abstract.Token;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -14,7 +14,7 @@ class LinkedListTest {
 
     @BeforeEach
     void setUp() {
-        linkedList = new LinkedList<Token>();
+        linkedList = new LinkedList<>();
     }
 
     @Test
@@ -45,7 +45,7 @@ class LinkedListTest {
         linkedList.removeFirst();
         assertTrue(linkedList.isEmpty());
         Assertions.assertThrows(EmptyListException.class, ()
-                -> {linkedList.removeFirst();});
+                -> linkedList.removeFirst());
     }
 
     @Test

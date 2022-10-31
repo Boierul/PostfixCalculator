@@ -1,7 +1,7 @@
 import Enums.Operation;
 import Structures.Implementations.Operand;
 import Structures.Implementations.Operator;
-import Structures.Token;
+import Structures.Abstract.Token;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

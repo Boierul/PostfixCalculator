@@ -3,7 +3,6 @@ import Exceptions.MalformedExpressionException;
 import Structures.Implementations.CalculatorVisitor;
 import Structures.Implementations.Operand;
 import Structures.Implementations.Operator;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

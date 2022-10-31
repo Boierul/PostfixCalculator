@@ -1,6 +1,6 @@
 import Structures.Implementations.Node;
 import Structures.Implementations.Operand;
-import Structures.Token;
+import Structures.Abstract.Token;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
